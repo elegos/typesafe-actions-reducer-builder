@@ -1,0 +1,42 @@
+{
+  "name": "typesafe-actions-reducer-builder",
+  "version": "1.0.0",
+  "description": "Reducer builder for typesafe-actions, including immer for reducer's output",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elegos/typesafe-actions-reducer-builder.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "typesafe-actions",
+    "redux",
+    "immer",
+    "reducer"
+  ],
+  "author": "Giacomo 'Mr. Wolf' Furlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elegos/typesafe-actions-reducer-builder/issues"
+  },
+  "homepage": "https://github.com/elegos/typesafe-actions-reducer-builder#readme",
+  "dependencies": {
+    "immer": "^6.0.2",
+    "redux": "^4.0.5",
+    "typesafe-actions": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@types/redux": "^3.6.0",
+    "jest": "^25.2.4",
+    "ts-jest": "^25.3.0",
+    "typescript": "^3.8.3"
+  }
+}
