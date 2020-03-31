@@ -16,14 +16,14 @@ allowing the developer to define reducers per-action basis. It uses the `typesaf
 
 import createReducerBuilder from 'typesafe-actions-reducer-builder'
 
-// Those are all typesafe-actions actions
+// Those are all typesafe-actions action builders
 import {
-  metaAuthorChangeAction,      // PayloadAction<string, string>
-  metaTitleChangeAction,       // PayloadAction<string, string>
-  metaDescriptionChangeAction, // PayloadAction<string, string>
-  metaTagsAddAction,           // PayloadAction<string, string>
-  metaTagsRemoveAction,        // PayloadAction<string, string>
-  bodyChangeAction,            // PayloadAction<string, string>
+  metaAuthorChangeAction,      // ActionCreatorBuilder<string, string, undefined>
+  metaTitleChangeAction,       // ActionCreatorBuilder<string, string, undefined>
+  metaDescriptionChangeAction, // ActionCreatorBuilder<string, string, undefined>
+  metaTagsAddAction,           // ActionCreatorBuilder<string, string, undefined>
+  metaTagsRemoveAction,        // ActionCreatorBuilder<string, string, undefined>
+  bodyChangeAction,            // ActionCreatorBuilder<string, string, undefined>
 } from './actions.ts'
 
 interface DocumentState {
