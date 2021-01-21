@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/elegos/typesafe-actions-reducer-builder#readme",
   "dependencies": {
-    "immer": "^6.0.2",
+    "immer": "^8.0.1",
     "redux": "^4.0.5",
     "typesafe-actions": "^5.1.0"
   },
